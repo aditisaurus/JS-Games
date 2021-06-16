@@ -12,3 +12,11 @@ document.getElementById('flex-box-result').appendChild(h1);
 function reset() {
     document.getElementById('ageInDayss').remove();
 }
+
+//Challenge 2- Cat generator
+function generateCat() {
+    var image= document.createElement('img');
+    var divi= document.getElementById('flex-cat-gen');
+    image.src ="http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
+    divi.appendChild(image);
+}

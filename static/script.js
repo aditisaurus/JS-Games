@@ -20,3 +20,24 @@ function generateCat() {
     image.src ="http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
     divi.appendChild(image);
 }
+
+//Challenge 3- Rock, Paper, Scissors
+
+function rpsGame(yourChoice) {
+    console.log(yourChoice);
+    var humanChoice, botChoice;
+    //humanChoice = yourChoie.id;
+    //botChoice =
+// results= decideWinner(humanChoice, botChoice)
+
+//finalMessage= finalMessage(results);
+rpsFrontEnd(yourChoice.id, botChoice, message);
+}
+
+function randToRpsInt() {
+    return Math.floor(Math.random[] * 3);
+}
+
+function numberToChoice (number) {
+    return ['rock', 'paper', 'scissors'] [number];
+}
